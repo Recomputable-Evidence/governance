@@ -5,12 +5,18 @@ teams:
     members:
       - jwagantall
       - thelinuxfoundation
+  - name: re-maintainers
+    maintainers:
+      - giskard09
+    members: []
 repositories:
   - name: .github
     teams:
       lfdt-staff: maintain
+      re-maintainers: maintain
     visibility: public
   - name: governance
     teams:
       lfdt-staff: maintain
+      re-maintainers: maintain
     visibility: public
