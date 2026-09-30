@@ -1,22 +1,30 @@
 teams:
+  - name: cec-maintainers
+    maintainers:
+      - giskard09
+    members:
+      - azender1
+      - kenneives
+      - magentixai
   - name: lfdt-staff
     maintainers:
       - ryjones
     members:
       - jwagantall
       - thelinuxfoundation
-  - name: re-maintainers
-    maintainers:
-      - giskard09
-    members: []
 repositories:
   - name: .github
     teams:
       lfdt-staff: maintain
-      re-maintainers: maintain
+      cec-maintainers: maintain
+    visibility: public
+  - name: action-ref-conformance
+    teams:
+      lfdt-staff: maintain
+      cec-maintainers: maintain
     visibility: public
   - name: governance
     teams:
       lfdt-staff: maintain
-      re-maintainers: maintain
+      cec-maintainers: maintain
     visibility: public
